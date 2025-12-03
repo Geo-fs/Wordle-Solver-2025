@@ -119,7 +119,7 @@ const candidatesHeaderCountEl = document.getElementById("candidatesHeaderCount")
 function initSolver() {
   // Load base word list
   if (!Array.isArray(WORD_LIST) || !WORD_LIST.length) {
-    statusTextEl.textContent = "WORD_LIST is empty. Go add some 5-letter words in words.js.";
+    statusTextEl.textContent = "WORD_LIST is empty. Go add some 5-letter words in words.js or use another wordle. Or quit, that works too.";
     statusTextEl.classList.add("error");
     applyBtnEl.disabled = true;
     return;
@@ -193,7 +193,7 @@ function applyPattern() {
   // Narrow candidate set
   candidates = filterCandidates(candidates, currentGuess, pattern);
   if (!candidates.length) {
-    statusTextEl.textContent = "No candidates left. Your pattern input is probably scuffed.";
+    statusTextEl.textContent = "No candidates left. Your pattern input is probably scuffed or you mis-typed a letter.";
     statusTextEl.classList.add("error");
     updateUI();
     return;
@@ -207,7 +207,7 @@ function applyPattern() {
   // Choose next guess
   const { guess: nextGuess } = chooseBestGuess(candidates, candidates);
   if (!nextGuess) {
-    statusTextEl.textContent = "AI brain melted. Could not find a next guess.";
+    statusTextEl.textContent = "AI brain melted. Could not find a next guess. We advise filing a complaint against NIVIDIA but you could just select reset.";
     statusTextEl.classList.add("error");
     updateUI();
     return;
