@@ -6,29 +6,29 @@ Overview: A small, on-device, offline web app for solving ANY wordle problem. Ea
 ##### NOTICE: YOU NEED ALL THREE OF THE FOLLOWING FILES FOR THIS PROJECT TO WORK: Wordle-Solver.html, words.js, solver.js. 
 
 #### Step 1:
-**Windows: Open the Notepad Application.**
-**Mac: Open the TextEdit Application.** 
+* **Windows: Open the Notepad Application.**
+* **Mac: Open the TextEdit Application.** 
 
 #### Step 2:
-**Windows: Open A new, blank, unnamed note.**
-**Mac: Open A new, blank, unnamed file/note. Select "Format" > "Make Plain Text".**
+* **Windows: Open A new, blank, unnamed note.**
+* **Mac: Open A new, blank, unnamed file/note. Select "Format" > "Make Plain Text".**
 
 #### Step 3:
-**Windows: Copy and Paste the contents of ONE (1) Of The 3 Main Wordle-Solver Files to the opened note.**
-**Mac: Copy and Paste the contents of ONE (1) Of The 3 Main Wordle-Solver Files to the opened note.**
+* **Windows: Copy and Paste the contents of ONE (1) Of The 3 Main Wordle-Solver Files to the opened note.**
+* **Mac: Copy and Paste the contents of ONE (1) Of The 3 Main Wordle-Solver Files to the opened note.**
 
 #### Step 4:
-**Windows: In Notepad, select "File" > "Save As". In the "File Name:" Area, write the full name of the file you had copy and pasted(words.js, solver.js, etc.). Then Select "Save As Type", and select "All Files". Select "Save".**
-**Mac: In TextEdit, Go To "File" > "Save". In the file name area, write only the first part of the file(Stop at the place for the extension. Example: "Hello" instead of "Hello.html"). Make sure you add the correct extension for the particular file!**
+* **Windows: In Notepad, select "File" > "Save As". In the "File Name:" Area, write the full name of the file you had copy and pasted(words.js, solver.js, etc.). Then Select "Save As Type", and select "All Files". Select "Save".**
+* **Mac: In TextEdit, Go To "File" > "Save". In the file name area, write only the first part of the file(Stop at the place for the extension. Example: "Hello" instead of "Hello.html"). Make sure you add the correct extension for the particular file!**
 
 #### Step 5:
-**Windows: Repeat steps 3 and 4 for all the files needed(See Above). When finished, you should have ONE (1) .html file and TWO (2) .js files.**
-**Mac: Repeat steps 3 and 4 for all the files needed(See Above). When finished, you should have ONE (1) .html file and TWO (2) .js files.**
-*IMPORTANT: MAKE SURE THAT ALL 3 FILES ARE SAVED AS CODE, NOT TEXT FILES! If you encounter an issue, consult the help resources below.*
+* **Windows: Repeat steps 3 and 4 for all the files needed(See Above). When finished, you should have ONE (1) .html file and TWO (2) .js files.**
+* **Mac: Repeat steps 3 and 4 for all the files needed(See Above). When finished, you should have ONE (1) .html file and TWO (2) .js files.**
+* *IMPORTANT: MAKE SURE THAT ALL 3 FILES ARE SAVED AS CODE, NOT TEXT FILES! If you encounter an issue, consult the help resources below.*
 
 #### Step 6:
-**Windows: Locate Wordle-Solver.html and double click it. It will open the wordle solver in your browser.**
-**Mac: Locate Wordle-Solver.html and double click it. It should open in your defult browser however you may be asked to choose what to open it with. Choose your browser.**
+* **Windows: Locate Wordle-Solver.html and double click it. It will open the wordle solver in your browser.**
+* **Mac: Locate Wordle-Solver.html and double click it. It should open in your defult browser however you may be asked to choose what to open it with. Choose your browser.**
 
 ### How To Use: 
 When started, it will start on the default word: SOARE. This will be your first guess. In your wordle game, type this word(SOARE) into it. Select enter or your wordle game's equivelent. When you see a green letter, type "G" into the wordle solver. When you see a yellow letter, type "Y" into the wordle solver. When you see a gray letter, type "B" into the wordle solver. For Example: I type "SOARE" into the wordle game. The wordle gaame informs me that only "R" and "O" are green, and "E" is yellow. The letters "S" and "A" are gray. Therefore, the input I would type into the wordle-solver would be "BGBGY". After you input the sequence of letters so that they match the results you have, you can select "Apply". The wordle-solver will then give you the next word you should try. Repeat this process as many times as neccessary. 
