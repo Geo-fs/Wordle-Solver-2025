@@ -1,6 +1,7 @@
 //words.js
-
-
+// DO NOT SAVE AS .txt FILE! 
+// Note: Word list is randomized. 
+// Connect to Wordle-Solver.html via html call. 
 const RAW_WORDS = `
 rossa
 jetty
@@ -14859,8 +14860,10 @@ cadgy
 jalap
 `;
 
+// Word list based off of NYT wordle. 
+// IF YOU ARE ADDING WORDS: Make sure they are fully lowercase! FYI: You can put them anywhere in the list, it doesn't matter! You're welcome!
 
 const WORD_LIST = RAW_WORDS
-  .split(/[\s,]+/)            // split on spaces, newlines, or commas
+  .split(/[\s,]+/)            // split on spaces, new lines, or commas
   .map(w => w.trim().toLowerCase())
   .filter(w => w.length === 5);
